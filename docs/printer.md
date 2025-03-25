@@ -10,3 +10,5 @@
 - Prusa Bear Upgrade v2.1
 - Klipper firmware
 - [3MS Multimaterial System](https://3dcoded.github.io/3MS)
+- Stealthburner with Filametrix
+- SKR Mini E3 V3 board
