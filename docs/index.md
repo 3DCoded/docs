@@ -4,7 +4,7 @@ title: Home
 
 # About
 
-I am a 3D printing enthusiast and got my Prusa MK3S+ in August of 2022. [Modifications](printer.md)
+I am a 3D printing enthusiast and the creator of the 3MS, DynamicMacros, and more. [Modifications](printer.md)
 
 # Projects
 
