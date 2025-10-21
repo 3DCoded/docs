@@ -1,33 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>https://3dcoded.github.io/</loc>
-         <lastmod>2025-10-14</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://3dcoded.xyz/</loc>
+         <lastmod>2025-10-21</lastmod>
     </url>
     <url>
-         <loc>https://3dcoded.github.io/3ms/</loc>
-         <lastmod>2025-10-14</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://3dcoded.xyz/3ms/</loc>
+         <lastmod>2025-10-21</lastmod>
     </url>
     <url>
-         <loc>https://3dcoded.github.io/printer/</loc>
-         <lastmod>2025-10-14</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://3dcoded.xyz/printer/</loc>
+         <lastmod>2025-10-21</lastmod>
     </url>
     <url>
-         <loc>https://3dcoded.github.io/blog/</loc>
-         <lastmod>2025-10-14</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://3dcoded.xyz/blog/</loc>
+         <lastmod>2025-10-21</lastmod>
     </url>
     <url>
-         <loc>https://3dcoded.github.io/blog/2024/08/15/clearing-a-heat-creep-jam/</loc>
-         <lastmod>2025-10-14</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://3dcoded.xyz/blog/2024/08/15/clearing-a-heat-creep-jam/</loc>
+         <lastmod>2025-10-21</lastmod>
     </url>
     <url>
-         <loc>https://3dcoded.github.io/blog/archive/2024/</loc>
-         <lastmod>2025-10-14</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://3dcoded.xyz/blog/archive/2024/</loc>
+         <lastmod>2025-10-21</lastmod>
     </url>
 </urlset>
