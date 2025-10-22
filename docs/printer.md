@@ -12,7 +12,7 @@
 
 :material-console: Klipper firmware
 
-:tada: [3MS Multimaterial System](https://3dcoded.github.io/3MS)
+:tada: [3MS Multimaterial System](https://3ms.3dcoded.xyz)
 
 :material-tools: Custom X-axis MGN12H mod
 
