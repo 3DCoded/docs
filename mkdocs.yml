@@ -57,5 +57,4 @@ theme:
         name: Switch to light mode
 nav:
   - Home: index.md
-  - printer.md
   - Guides: blog/index.md

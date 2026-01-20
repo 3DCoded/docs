@@ -4,9 +4,11 @@ title: Home
 
 # About
 
-I am a 3D printing enthusiast and the creator of the 3MS, DynamicMacros, and more. [Modifications](printer.md)
+I am a 3D printing enthusiast and the creator of the 3MS, DynamicMacros, and more.
 
-# Projects
+[![Discord Shield](https://discord.com/api/guilds/1307104511663411210/widget.png?style=banner2&)](https://discord.gg/ekqxDhdGCg)
+
+## Projects
 
 <div class="grid cards" markdown>
 
@@ -33,5 +35,19 @@ I am a 3D printing enthusiast and the creator of the 3MS, DynamicMacros, and mor
     Easily schedule maintenance reminders in Klipper. Get reminded to maintain your 3D printer right in the Klipper console. Create as many custom maintenance reminders as you need!
 
     [:octicons-arrow-right-24: Get Started](https://3dcoded.xyz/KlipperMaintenance)
+
+</div>
+
+## Additional Projects
+
+<div class="grid cards" markdown>
+
+- __AllConfig: Easily view your configs as Klipper sees it__
+
+    ---
+
+    Easily diagnose configuration issues in Klipper without having to parse your `klippy.log`
+
+    [:octicons-arrow-right-24: Get Started](https://github.com/3DCoded/Klipper-AllConfig)
 
 </div>
