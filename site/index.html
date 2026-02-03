@@ -194,7 +194,7 @@
     
     
       <div class="md-header__source">
-        <a href="https://github.com/3dcoded/3dcoded.github.io" title="Go to repository" class="md-source" data-md-component="source">
+        <a href="https://github.com/3dcoded/" title="Go to repository" class="md-source" data-md-component="source">
   <div class="md-source__icon md-icon">
     
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
@@ -239,7 +239,7 @@
   </label>
   
     <div class="md-nav__source">
-      <a href="https://github.com/3dcoded/3dcoded.github.io" title="Go to repository" class="md-source" data-md-component="source">
+      <a href="https://github.com/3dcoded/" title="Go to repository" class="md-source" data-md-component="source">
   <div class="md-source__icon md-icon">
     
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
@@ -425,22 +425,54 @@
 <p>I am a 3D printing enthusiast and the creator of the 3MS, DynamicMacros, and more.</p>
 <p><a href="https://discord.gg/ekqxDhdGCg"><img alt="Discord Shield" src="https://discord.com/api/guilds/1307104511663411210/widget.png?style=banner2&amp;" /></a></p>
 <h2 id="projects">Projects</h2>
+<script>
+    fetch('https://api.github.com/repos/3DCoded/3MS')
+    .then(response => {
+        if (response.ok) {
+            return response.json();
+        }
+    }).then(data => {
+        document.getElementById("3star").textContent = data.stargazers_count;
+    })
+
+    fetch('https://api.github.com/repos/3DCoded/DynamicMacros')
+    .then(response => {
+        if (response.ok) {
+            return response.json();
+        }
+    }).then(data => {
+        document.getElementById("dmacrostar").textContent = data.stargazers_count;
+    })
+
+    fetch('https://api.github.com/repos/3DCoded/KlipperMaintenance')
+    .then(response => {
+        if (response.ok) {
+            return response.json();
+        }
+    }).then(data => {
+        document.getElementById("kmaintainstar").textContent = data.stargazers_count;
+    })
+</script>
+
 <div class="grid cards">
 <ul>
 <li>
 <p><a href="https://3ms.3dcoded.xyz"><img alt="" src="assets/3ms.png" /></a> <strong>3MS: Modular Multimaterial System for Klipper 3D printers</strong></p>
+<p><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.751.751 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25m0 2.445L6.615 5.5a.75.75 0 0 1-.564.41l-3.097.45 2.24 2.184a.75.75 0 0 1 .216.664l-.528 3.084 2.769-1.456a.75.75 0 0 1 .698 0l2.77 1.456-.53-3.084a.75.75 0 0 1 .216-.664l2.24-2.183-3.096-.45a.75.75 0 0 1-.564-.41z"/></svg></span> <span id="3star">137</span></p>
 <hr />
 <p>Simple multimaterial 3D printing on Klipper. No complex mechanism, just standard extruders synchronized to your printer. Plus, keep all the benefits of your existing extruder!</p>
 <p><a href="https://3ms.3dcoded.xyz"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13.22 19.03a.75.75 0 0 1 0-1.06L18.19 13H3.75a.75.75 0 0 1 0-1.5h14.44l-4.97-4.97a.749.749 0 0 1 .326-1.275.75.75 0 0 1 .734.215l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0"/></svg></span> Get Started</a></p>
 </li>
 <li>
 <p><a href=""><img alt="" src="assets/dynamicmacros.png" /></a> <strong>DynamicMacros: Never restart Klipper again for your simple macros</strong></p>
+<p><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.751.751 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25m0 2.445L6.615 5.5a.75.75 0 0 1-.564.41l-3.097.45 2.24 2.184a.75.75 0 0 1 .216.664l-.528 3.084 2.769-1.456a.75.75 0 0 1 .698 0l2.77 1.456-.53-3.084a.75.75 0 0 1 .216-.664l2.24-2.183-3.096-.45a.75.75 0 0 1-.564-.41z"/></svg></span> <span id="dmacrostar">71</span></p>
 <hr />
 <p>Quickly develop Klipper macros with ease. Save time without restarting Klipper. Use the extra features of DynamicMacros that make macros even more powerful!</p>
 <p><a href="https://dynamicmacros.3dcoded.xyz"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13.22 19.03a.75.75 0 0 1 0-1.06L18.19 13H3.75a.75.75 0 0 1 0-1.5h14.44l-4.97-4.97a.749.749 0 0 1 .326-1.275.75.75 0 0 1 .734.215l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0"/></svg></span> Get Started</a></p>
 </li>
 <li>
 <p><a href="https://3dcoded.xyz/KlipperMaintenance"><img alt="" src="assets/klippermaintenance.png" /></a> <strong>KlipperMaintenance: Keep your 3D printer running smoothly</strong></p>
+<p><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.751.751 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25m0 2.445L6.615 5.5a.75.75 0 0 1-.564.41l-3.097.45 2.24 2.184a.75.75 0 0 1 .216.664l-.528 3.084 2.769-1.456a.75.75 0 0 1 .698 0l2.77 1.456-.53-3.084a.75.75 0 0 1 .216-.664l2.24-2.183-3.096-.45a.75.75 0 0 1-.564-.41z"/></svg></span> <span id="kmaintainstar">39</span></p>
 <hr />
 <p>Easily schedule maintenance reminders in Klipper. Get reminded to maintain your 3D printer right in the Klipper console. Create as many custom maintenance reminders as you need!</p>
 <p><a href="https://3dcoded.xyz/KlipperMaintenance"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13.22 19.03a.75.75 0 0 1 0-1.06L18.19 13H3.75a.75.75 0 0 1 0-1.5h14.44l-4.97-4.97a.749.749 0 0 1 .326-1.275.75.75 0 0 1 .734.215l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0"/></svg></span> Get Started</a></p>
