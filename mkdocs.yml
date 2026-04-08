@@ -32,8 +32,9 @@ theme:
   logo: assets/logo.png
   favicon: assets/logo.png
   features:
-      - navigation.indexes
+      # - navigation.indexes
       - navigation.expand
+      - navigation.tabs
       - navigation.instant
       - navigation.instant.prefetch
       - search.suggest
@@ -57,4 +58,10 @@ theme:
         name: Switch to light mode
 nav:
   - Home: index.md
-  - Guides: blog/index.md
+  - 3MS: https://3ms.3dcoded.xyz
+  - DynamicMacros: https://dynamicmacros.3dcoded.xyz
+  - KlipperMaintenance:
+    - Home: KlipperMaintenance/index.md
+    - KlipperMaintenance/install.md
+    - KlipperMaintenance/config.md
+    - KlipperMaintenance/gcodes.md
