@@ -4,7 +4,61 @@
         <loc>https://3dcoded.xyz/</loc>
       </url>
       <url>
+        <loc>https://3dcoded.xyz/DynamicMacros/</loc>
+      </url>
+      <url>
+        <loc>https://3dcoded.xyz/DynamicMacros/github/</loc>
+      </url>
+      <url>
+        <loc>https://3dcoded.xyz/DynamicMacros/setup/</loc>
+      </url>
+      <url>
+        <loc>https://3dcoded.xyz/DynamicMacros/tutorial/</loc>
+      </url>
+      <url>
+        <loc>https://3dcoded.xyz/DynamicMacros/tutorial/converting/</loc>
+      </url>
+      <url>
+        <loc>https://3dcoded.xyz/DynamicMacros/tutorial/usingfeatures/</loc>
+      </url>
+      <url>
+        <loc>https://3dcoded.xyz/DynamicMacros/tutorial/experimental/</loc>
+      </url>
+      <url>
+        <loc>https://3dcoded.xyz/DynamicMacros/features/</loc>
+      </url>
+      <url>
+        <loc>https://3dcoded.xyz/DynamicMacros/features/recursion/</loc>
+      </url>
+      <url>
+        <loc>https://3dcoded.xyz/DynamicMacros/features/receivingvariables/</loc>
+      </url>
+      <url>
+        <loc>https://3dcoded.xyz/DynamicMacros/features/utilities/</loc>
+      </url>
+      <url>
+        <loc>https://3dcoded.xyz/DynamicMacros/features/variables/</loc>
+      </url>
+      <url>
+        <loc>https://3dcoded.xyz/DynamicMacros/features/python/</loc>
+      </url>
+      <url>
+        <loc>https://3dcoded.xyz/DynamicMacros/features/delayed/</loc>
+      </url>
+      <url>
+        <loc>https://3dcoded.xyz/DynamicMacros/features/clusters/</loc>
+      </url>
+      <url>
+        <loc>https://3dcoded.xyz/DynamicMacros/features/rendering/</loc>
+      </url>
+      <url>
+        <loc>https://3dcoded.xyz/DynamicMacros/examples/</loc>
+      </url>
+      <url>
         <loc>https://3dcoded.xyz/KlipperMaintenance/</loc>
+      </url>
+      <url>
+        <loc>https://3dcoded.xyz/KlipperMaintenance/github/</loc>
       </url>
       <url>
         <loc>https://3dcoded.xyz/KlipperMaintenance/install/</loc>
@@ -14,5 +68,20 @@
       </url>
       <url>
         <loc>https://3dcoded.xyz/KlipperMaintenance/gcodes/</loc>
+      </url>
+      <url>
+        <loc>https://3dcoded.xyz/extras/extras-start/</loc>
+      </url>
+      <url>
+        <loc>https://3dcoded.xyz/extras/extras-intro/</loc>
+      </url>
+      <url>
+        <loc>https://3dcoded.xyz/extras/extras-ex1/</loc>
+      </url>
+      <url>
+        <loc>https://3dcoded.xyz/extras/extras-ex2/</loc>
+      </url>
+      <url>
+        <loc>https://3dcoded.xyz/extras/extras-ex3/</loc>
       </url>
 </urlset>

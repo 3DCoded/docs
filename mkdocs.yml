@@ -7,6 +7,10 @@ plugins:
   - blog
 markdown_extensions:
   - pymdownx.critic
+  - pymdownx.snippets:
+      base_path: docs/snippets
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
   - pymdownx.caret
   - pymdownx.keys
   - pymdownx.mark
@@ -32,8 +36,8 @@ theme:
   logo: assets/logo.png
   favicon: assets/logo.png
   features:
-      # - navigation.indexes
-      - navigation.expand
+      - navigation.indexes
+      # - navigation.expand
       - navigation.tabs
       - navigation.instant
       - navigation.instant.prefetch
@@ -41,27 +45,54 @@ theme:
       - search.highlight
       - search.share
       - content.code.copy
+      - content.code.annotate
   name: material
   palette: 
     # Palette toggle for light mode
     - scheme: default
-      primary: green
+      primary: blue
       toggle:
         icon: material/brightness-7 
         name: Switch to dark mode
 
     # Palette toggle for dark mode
     - scheme: slate
-      primary: green
+      primary: blue
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
 nav:
   - Home: index.md
   - 3MS: https://3ms.3dcoded.xyz
-  - DynamicMacros: https://dynamicmacros.3dcoded.xyz
+  - DynamicMacros:
+    - DynamicMacros/index.md
+    - DynamicMacros/github.md
+    - DynamicMacros/setup.md
+    - Tutorial:
+      - DynamicMacros/tutorial/index.md
+      - DynamicMacros/tutorial/converting.md
+      - DynamicMacros/tutorial/usingfeatures.md
+      - DynamicMacros/tutorial/experimental.md
+    - Features:
+      - DynamicMacros/features/index.md
+      - DynamicMacros/features/recursion.md
+      - DynamicMacros/features/receivingvariables.md
+      - DynamicMacros/features/utilities.md
+      - DynamicMacros/features/variables.md
+      - DynamicMacros/features/python.md
+      - DynamicMacros/features/delayed.md
+      - DynamicMacros/features/clusters.md
+      - DynamicMacros/features/rendering.md
+    - DynamicMacros/examples.md
   - KlipperMaintenance:
     - Home: KlipperMaintenance/index.md
+    - KlipperMaintenance/github.md
     - KlipperMaintenance/install.md
     - KlipperMaintenance/config.md
     - KlipperMaintenance/gcodes.md
+  - Klippy Extras:
+    - extras/extras-start.md
+    - extras/extras-intro.md
+    - extras/extras-ex1.md
+    - extras/extras-ex2.md
+    - extras/extras-ex3.md
