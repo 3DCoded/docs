@@ -61,6 +61,10 @@ theme:
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
+extra:
+  analytics:
+    provider: google
+    property: G-4MHEV79PYL
 nav:
   - Home: index.md
   - 3MS: https://3ms.3dcoded.xyz
