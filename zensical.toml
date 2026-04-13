@@ -1,0 +1,137 @@
+[project]
+site_name = "3DCoded"
+site_url = "https://docs.3dcoded.xyz"
+site_description = "Documentation for various 3DCoded projects"
+site_author = "Christopher Mattar (3DCoded)"
+copyright = "&copy; 2026 Christopher Mattar (3DCoded)"
+repo_url = "https://github.com/3DCoded"
+repo_name = "3DCoded"
+nav = [
+    {"Home" = "index.md"},
+    {"3MS" = "https://3ms.3dcoded.xyz"},
+    {"DynamicMacros" = [
+        "DynamicMacros/index.md",
+        "DynamicMacros/github.md",
+        "DynamicMacros/setup.md",
+        {"Tutorial" = [
+            "DynamicMacros/tutorial/index.md",
+            "DynamicMacros/tutorial/converting.md",
+            "DynamicMacros/tutorial/usingfeatures.md",
+            "DynamicMacros/tutorial/experimental.md",
+        ]},
+        {"Features" = [
+            "DynamicMacros/features/index.md",
+            "DynamicMacros/features/recursion.md",
+            "DynamicMacros/features/receivingvariables.md",
+            "DynamicMacros/features/utilities.md",
+            "DynamicMacros/features/variables.md",
+            "DynamicMacros/features/python.md",
+            "DynamicMacros/features/delayed.md",
+            "DynamicMacros/features/clusters.md",
+            "DynamicMacros/features/rendering.md",
+        ]},
+        "DynamicMacros/examples.md",
+    ]},
+    {"KlipperMaintenance" = [
+        "KlipperMaintenance/index.md",
+        "KlipperMaintenance/github.md",
+        "KlipperMaintenance/install.md",
+        "KlipperMaintenance/config.md",
+        "KlipperMaintenance/gcodes.md",
+    ]},
+    {"Klippy Extras" = [
+        "extras/extras-start.md",
+        "extras/extras-intro.md",
+        "extras/extras-ex1.md",
+        "extras/extras-ex2.md",
+        "extras/extras-ex3.md",
+    ]},
+]
+
+[project.theme.icon]
+repo = "fontawesome/brands/github"
+
+[project.theme]
+variant = "modern"
+logo = "assets/logo.png"
+favicon = "assets/logo.png"
+features = [
+    "navigation.tabs",
+    "navigation.indexes",
+    "navigation.instant",
+    "navigation.instant.prefetch",
+    "search.suggest",
+    "search.highlight",
+    "search.share",
+    "content.code.copy",
+    "content.code.annotate",
+]
+
+[project.markdown_extensions.pymdownx.highlight]
+anchor_linenums = true
+line_spans = "__span"
+pygments_lang_class = true
+[project.markdown_extensions.pymdownx.inlinehilite]
+[project.markdown_extensions.pymdownx.snippets]
+base_path = "docs/snippets"
+[project.markdown_extensions.pymdownx.superfences]
+[project.markdown_extensions.pymdownx.caret]
+[project.markdown_extensions.pymdownx.mark]
+[project.markdown_extensions.pymdownx.tilde]
+[project.markdown_extensions.pymdownx.keys]
+[project.markdown_extensions.admonition]
+[project.markdown_extensions.pymdownx.details]
+[project.markdown_extensions.md_in_html]
+[project.markdown_extensions.attr_list]
+[project.markdown_extensions.pymdownx.tabbed]
+alternate_style = true
+[project.markdown_extensions.pymdownx.emoji]
+emoji_index = "zensical.extensions.emoji.twemoji" 
+emoji_generator = "zensical.extensions.emoji.to_svg"
+
+
+[project.extra.consent]
+title = "Cookie consent"
+description = """
+    We use cookies to recognize your repeated visits and preferences, as well
+    as to measure the effectiveness of our documentation and whether users
+    find what they're searching for. With your consent, you're helping us to
+    make our documentation better.
+"""
+cookies.name = "Google Analytics"
+checked = true
+
+
+# Palette toggle for automatic mode
+[[project.theme.palette]]
+media = "(prefers-color-scheme)"
+toggle.icon = "lucide/sun-moon"
+toggle.name = "Switch to light mode"
+
+# Palette toggle for light mode
+[[project.theme.palette]]
+media = "(prefers-color-scheme: light)"
+scheme = "default"
+toggle.icon = "lucide/sun"
+toggle.name = "Switch to dark mode"
+
+# Palette toggle for dark mode
+[[project.theme.palette]]
+media = "(prefers-color-scheme: dark)"
+scheme = "slate"
+toggle.icon = "lucide/moon"
+toggle.name = "Switch to system preference"
+
+
+# Social links
+[[project.extra.social]]
+icon = "fontawesome/brands/github"
+link = "https://github.com/3DCoded"
+
+[[project.extra.social]]
+icon = "fontawesome/brands/discord"
+link = "https://discord.gg/ekqxDhdGCg"
+
+[[project.extra.social]]
+icon = "fontawesome/brands/youtube"
+link = "https://youtube.com/@3DCoded"
