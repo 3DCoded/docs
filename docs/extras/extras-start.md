@@ -4,7 +4,7 @@ comments: true
 
 # Start Writing Klippy Extras
 
-While DynamicMacros makes Klipper macros much more powerful, sometimes a Klippy extra is required for more functionality. In this tutorial, you will learn how to develop a Klippy extra and test it using DynamicMacros.
+In this tutorial, you will learn how to develop a Klippy extras module and install it on your printer. Parts of this tutorial are also applicable to invoking Python code from a Dynamic Macro.
 
 !!! info
     To write a Klipper extra, you should be **fluent** in Python.
