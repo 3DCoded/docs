@@ -101,6 +101,10 @@ description = """
 cookies.name = "Google Analytics"
 checked = true
 
+[project.extra.analytics]
+provider = "google"
+property = "G-4MHEV79PYL"
+
 
 # Palette toggle for automatic mode
 [[project.theme.palette]]
