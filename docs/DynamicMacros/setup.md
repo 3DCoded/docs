@@ -96,10 +96,10 @@ Test successful!
 
 ## Features
 
-- [Recursion](recursion.md)
-- [Receiving Variable Updates](receivingvariables.md)
-- [Utility Functions](utilities.md)
-- [Variables](variables.md)
+- [Recursion](features/recursion.md)
+- [Receiving Variable Updates](features/receivingvariables.md)
+- [Utility Functions](features/utilities.md)
+- [Variables](features/variables.md)
 
 ## Tutorial
 

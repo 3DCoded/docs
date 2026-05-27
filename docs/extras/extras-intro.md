@@ -128,7 +128,7 @@ Fortunately, DynamicMacros provides a better solution.
 
 ## DynamicMacros
 
-Follow the installation instructions [here](setup.md).
+Follow the installation instructions [here](../DynamicMacros/setup.md).
 
 DynamicMacros supports running Python code from a macro. This makes testing parts of Klippy extras much quicker. Here's the current example, as a Klippy extra, excluding the config reading:
 

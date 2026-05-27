@@ -22,7 +22,7 @@ Klipper Dynamic Macros is an unofficial way to update macros without restarting 
   
     Allow macros to call themselves internally for more complex logic.
     
-    [Learn More :octicons-arrow-right-16:](recursion.md)
+    [Learn More :octicons-arrow-right-16:](features/recursion.md)
 
 - __:fontawesome-solid-arrows-rotate: Receiving Variables__
 
@@ -30,7 +30,7 @@ Klipper Dynamic Macros is an unofficial way to update macros without restarting 
   
     Allow macros to update their state while running.
     
-    [Learn More :octicons-arrow-right-16:](receivingvariables.md)
+    [Learn More :octicons-arrow-right-16:](features/receivingvariables.md)
 
 - __:material-tools: Utility Functions__
 
@@ -38,7 +38,7 @@ Klipper Dynamic Macros is an unofficial way to update macros without restarting 
   
     Reusable helpers and shared logic for complex macro systems.
     
-    [Learn More :octicons-arrow-right-16:](utilities.md)
+    [Learn More :octicons-arrow-right-16:](features/utilities.md)
 
 - __:material-variable: Variables & State__
 
@@ -46,7 +46,7 @@ Klipper Dynamic Macros is an unofficial way to update macros without restarting 
   
     Persistent variables and runtime state across macro executions.
     
-    [Learn More :octicons-arrow-right-16:](variables.md)
+    [Learn More :octicons-arrow-right-16:](features/variables.md)
 
 - __:simple-python: Embedded Python__
 
@@ -54,7 +54,7 @@ Klipper Dynamic Macros is an unofficial way to update macros without restarting 
   
     Use Python expressions and helpers directly inside macros.
     
-    [Learn More :octicons-arrow-right-16:](python.md)
+    [Learn More :octicons-arrow-right-16:](features/python.md)
 
 - __:octicons-eye-16: Rendering & Templating__
 
@@ -62,7 +62,7 @@ Klipper Dynamic Macros is an unofficial way to update macros without restarting 
   
     Render your macros before running them to quickly iterate on logic.
     
-    [Learn More :octicons-arrow-right-16:](rendering.md)
+    [Learn More :octicons-arrow-right-16:](features/rendering.md)
 
 - __:octicons-clock-16: Delayed GCode__
 
@@ -70,7 +70,7 @@ Klipper Dynamic Macros is an unofficial way to update macros without restarting 
   
     All the above features are also available in `delayed_gcode` sections.
     
-    [Learn More :octicons-arrow-right-16:](delayed.md)
+    [Learn More :octicons-arrow-right-16:](features/delayed.md)
 
 - __:material-format-list-group: Macro Clusters__
 
@@ -78,7 +78,7 @@ Klipper Dynamic Macros is an unofficial way to update macros without restarting 
   
     Group related macros into structured, modular systems, with optional safety systems in place.
     
-    [Learn More :octicons-arrow-right-16:](clusters.md)
+    [Learn More :octicons-arrow-right-16:](features/clusters.md)
 
 </div>
 
@@ -95,7 +95,7 @@ Klipper Dynamic Macros is an unofficial way to update macros without restarting 
 
 ## Klippy Extras Tutorial
 
-DynamicMacros also includes a [tutorial on writing Klippy extras](extras-start.md).
+DynamicMacros also includes a [tutorial on writing Klippy extras](../extras/extras-start.md).
 
 [Get Started :fontawesome-regular-paper-plane:](setup.md){.md-button}
 

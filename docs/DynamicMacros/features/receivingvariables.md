@@ -59,7 +59,7 @@ gcode:
     # Above line outputs 10
 ```
 
-See [Examples](examples.md#receiving-position-updates) for examples.
+See [Examples](../examples.md#receiving-position-updates) for examples.
 
 ## Custom Delimiters
 
