@@ -2,7 +2,7 @@
 
 **Keep your 3D printer running smoothly**
 
-<img src="/assets/KlipperMaintenance/logo.png" alt="logo" width="200"/>
+<img src="https://cdn.3dcoded.xyz/img/KlipperMaintenance/logo.png" alt="logo" width="200"/>
 
 
 ---

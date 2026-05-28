@@ -32,6 +32,10 @@ nav = [
         ]},
         "DynamicMacros/examples.md",
     ]},
+    {"iMacros" = [
+        "iMacros/index.md",
+        "iMacros/github.md"
+    ]},
     {"KlipperMaintenance" = [
         "KlipperMaintenance/index.md",
         "KlipperMaintenance/github.md",

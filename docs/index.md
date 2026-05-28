@@ -24,13 +24,13 @@ See above tabs or open the sidebar to the left to view documentation.
 
     [:octicons-database-24: Happy Hare Toolhead Dimension Database](https://3dcoded.xyz/tipconfigs){ .md-button }
 
-- ![](/assets/DynamicMacros/logo.png)
+- ![](https://cdn.3dcoded.xyz/img/DynamicMacros/logo.png)
 
     ---
 
     [:octicons-list-ordered-24: Documentation](/DynamicMacros){ .md-button .md-button--primary }
 
-- ![](/assets/KlipperMaintenance/logo.png)
+- ![](https://cdn.3dcoded.xyz/img/KliipperMaintenance/logo.png)
 
     ---
 

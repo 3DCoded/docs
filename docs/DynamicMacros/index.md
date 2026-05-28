@@ -2,7 +2,7 @@
 
 **Never restart Klipper again for simple macros.**
 
-<img src="/assets/DynamicMacros/logo.png" alt="logo" width="200"/>
+<img src="https://cdn.3dcoded.xyz/img/DynamicMacros/logo.png" alt="logo" width="200"/>
 
 ---
 
