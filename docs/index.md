@@ -30,7 +30,7 @@ See above tabs or open the sidebar to the left to view documentation.
 
     [:octicons-list-ordered-24: Documentation](/DynamicMacros){ .md-button .md-button--primary }
 
-- ![](https://cdn.3dcoded.xyz/img/KliipperMaintenance/logo.png)
+- ![](https://cdn.3dcoded.xyz/img/KlipperMaintenance/logo.png)
 
     ---
 
